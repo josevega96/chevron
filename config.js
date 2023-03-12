@@ -636,6 +636,25 @@ const CONFIG = {
         }
       }
     },
+    Brave: {
+      name: 'Brave Search',
+      bgColor: {
+        type: 'solid',
+        color: '#5992f7'
+      },
+      textColor: '#000',
+      types: {
+        query: {
+          template: 'https://search.brave.com/search?q={$}'
+        },
+        calculator: {
+          template: 'https://search.brave.com/search?q={@}'
+        },
+        currency: {
+          template: 'https://search.brave.com/search?q={@}'
+        }
+      }
+    },
     duckDuckGo: {
       name: 'DuckDuckGo',
       bgColor: {
